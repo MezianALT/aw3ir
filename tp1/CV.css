@@ -1,0 +1,46 @@
+body {
+  background-color: #e9ebee;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+table {
+  background-color: #fff;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Lignes impaires en gris clair */
+}
+
+table tr:hover {
+  background-color: #ddd; /* Changement de couleur au survol */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange; /* Couleur des liens au survol */
+}
+
+/* Media query pour les écrans de moins de 600px */
+@media only screen and (max-width: 600px) {
+  body {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  }
+}
